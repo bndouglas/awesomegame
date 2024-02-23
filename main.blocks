@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="yF:DkCk{2snD3j4c5(4+" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="4eUU3w4dWq%L9C2gyvTX">mySprite</variable><variable type="KIND_SpriteKind" id="R|gb|,Y|*|}#jg%5js[W">Player</variable><variable type="KIND_SpriteKind" id="@sCqTh;IbyHcN8NG-|V7">Projectile</variable><variable type="KIND_SpriteKind" id="PS*M,!7:@`gZQwa9Ys[N">Food</variable><variable type="KIND_SpriteKind" id="(8W@j2eq(*Y@lDk/aK7G">Enemy</variable></variables><block type="pxt-on-start" id="yF:DkCk{2snD3j4c5(4+" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="uMlp.H_tkGZN9gi%eTrI"><field name="VAR" id="4eUU3w4dWq%L9C2gyvTX">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="cyT|:T7Cm)u|Ryh]vQbO"><value name="img"><shadow type="screen_image_picker" id="9,.S/|*PV%|9Q$CJzse="><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . f f f 2 2 f f f . . . . 
+. . . f f f 2 2 2 2 f f f . . . 
+. . f f f e e e e e e f f f . . 
+. . f f e 2 2 2 2 2 2 e e f . . 
+. f f e 2 f f f f f f 2 e f f . 
+. f f f f f e e e e f f f f f . 
+. . f e f b f 4 4 f b f e f . . 
+. . f e 4 1 f d d f 1 4 e f . . 
+. . . f e 4 d d d d 4 e f e . . 
+. . f e f 2 2 2 2 e d d 4 e . . 
+. . e 4 f 2 2 2 2 e d d e . . . 
+. . . . f 4 4 5 5 f e e . . . . 
+. . . . f f f f f f f . . . . . 
+. . . . f f f . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"9,.S/|*PV%|9Q$CJzse="}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="r!/H)-lr0QGl+dv)0gh}"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="ctrlgame_control_sprite" id="#f|NxF:qM[EtVq~Q%|s{"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="controller">controller.player1</field><value name="sprite"><block type="variables_get" id="Rx2Ig{q`9LzHz_Pp`ILg"><field name="VAR" id="4eUU3w4dWq%L9C2gyvTX">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="fP[BwWBL?k[Vg-~7{DW9"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="Xoq#g`QA?ls{5*Xzxy$?"><field name="speed">100</field></shadow></value></block></next></block></statement></block></xml>
